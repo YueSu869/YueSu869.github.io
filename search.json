@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yue Su",
+    "section": "",
+    "text": "from pyspark.sql import SparkSession\n\nspark = SparkSession.builder.appName(\"AD688\").getOrCreate()\n\ndata = [(\"Python\", 1), (\"PySpark\", 2), (\"Quarto\", 3)]\ndf = spark.createDataFrame(data, [\"Tool\", \"Value\"])\n\ndf.show()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n/home/ubuntu/venv/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas &gt;= 3.0.0. Some features may not work correctly. It is recommended to use pandas &lt; 3.0.0 for now.\n  require_minimum_pandas_version()\n26/09/26 21:28:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n[Stage 0:&gt;                                                          (0 + 1) / 1]                                                                                \n\n\n+-------+-----+\n|   Tool|Value|\n+-------+-----+\n| Python|    1|\n|PySpark|    2|\n| Quarto|    3|\n+-------+-----+"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
