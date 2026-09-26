@@ -1,0 +1,15 @@
+---
+title: "Yue Su"
+jupyter: python3
+---
+
+```{python}
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("AD688").getOrCreate()
+
+data = [("Python", 1), ("PySpark", 2), ("Quarto", 3)]
+df = spark.createDataFrame(data, ["Tool", "Value"])
+
+df.show()
+```
