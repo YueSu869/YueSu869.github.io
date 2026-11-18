@@ -1,0 +1,9 @@
+---
+title: "CV"
+---
+
+I am a graduate student in Applied Business Analytics at Boston University.
+I earned my bachelor's degree in Supply Chain Management from Rutgers Business
+School and have internship experience in business analytics and logistics.
+
+[Download my CV (PDF)](Yue-Su-CV.pdf){download="Yue-Su-CV.pdf"}

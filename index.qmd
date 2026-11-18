@@ -1,15 +1,11 @@
 ---
-title: "Yue Su"
-jupyter: python3
+title: "About You"
 ---
 
-```{python}
-from pyspark.sql import SparkSession
+## Hi, I'm Yue Su
 
-spark = SparkSession.builder.appName("AD688").getOrCreate()
-
-data = [("Python", 1), ("PySpark", 2), ("Quarto", 3)]
-df = spark.createDataFrame(data, ["Tool", "Value"])
-
-df.show()
-```
+I am a graduate student specializing in Applied Business Analytics from Boston University, with a Bachelor’s degree in Supply Chain Management from Rutgers Business School.
+ 
+With internship experience in both business analytics and logistics, I have developed a strong foundation in data analysis and problem-solving, and can analyze complex situations and identify practical solutions. I am particularly interested in leveraging data to support business decision-making and improve operational efficiency.
+ 
+In addition, I have strong written communication skills and was selected to present an academic paper at a university-wide poster exhibition. This experience strengthened my ability to communicate complex ideas clearly and effectively to diverse audiences.
