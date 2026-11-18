@@ -1,10 +1,52 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "I am a graduate student in Applied Business Analytics at Boston University. I earned my bachelor’s degree in Supply Chain Management from Rutgers Business School and have internship experience in business analytics and logistics.\nDownload my CV (PDF)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Yue Su",
+    "title": "About You",
     "section": "",
-    "text": "from pyspark.sql import SparkSession\n\nspark = SparkSession.builder.appName(\"AD688\").getOrCreate()\n\ndata = [(\"Python\", 1), (\"PySpark\", 2), (\"Quarto\", 3)]\ndf = spark.createDataFrame(data, [\"Tool\", \"Value\"])\n\ndf.show()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n/home/ubuntu/venv/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas &gt;= 3.0.0. Some features may not work correctly. It is recommended to use pandas &lt; 3.0.0 for now.\n  require_minimum_pandas_version()\n26/09/26 21:28:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n[Stage 0:&gt;                                                          (0 + 1) / 1]                                                                                \n\n\n+-------+-----+\n|   Tool|Value|\n+-------+-----+\n| Python|    1|\n|PySpark|    2|\n| Quarto|    3|\n+-------+-----+"
+    "text": "I am a graduate student specializing in Applied Business Analytics from Boston University, with a Bachelor’s degree in Supply Chain Management from Rutgers Business School.\nWith internship experience in both business analytics and logistics, I have developed a strong foundation in data analysis and problem-solving, and can analyze complex situations and identify practical solutions. I am particularly interested in leveraging data to support business decision-making and improve operational efficiency.\nIn addition, I have strong written communication skills and was selected to present an academic paper at a university-wide poster exhibition. This experience strengthened my ability to communicate complex ideas clearly and effectively to diverse audiences."
+  },
+  {
+    "objectID": "index.html#hi-im-yue-su",
+    "href": "index.html#hi-im-yue-su",
+    "title": "About You",
+    "section": "",
+    "text": "I am a graduate student specializing in Applied Business Analytics from Boston University, with a Bachelor’s degree in Supply Chain Management from Rutgers Business School.\nWith internship experience in both business analytics and logistics, I have developed a strong foundation in data analysis and problem-solving, and can analyze complex situations and identify practical solutions. I am particularly interested in leveraging data to support business decision-making and improve operational efficiency.\nIn addition, I have strong written communication skills and was selected to present an academic paper at a university-wide poster exhibition. This experience strengthened my ability to communicate complex ideas clearly and effectively to diverse audiences."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m happy to connect about business analytics, supply chain, and internship opportunities.\n\nConnect with me on LinkedIn\nView my GitHub profile"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "• Conducted market and industry analysis, identifying key trends, competitive benchmarks, and strategic options to optimize Tesla’s battery procurement strategy, aligning it with business goals\n• Formulated a sustainable procurement strategy, collaborating with ethical suppliers and integrating recycling and circular economy practices to reduce costs and enhance resource use in battery production\n• Developed a roadmap and risk management plan, setting performance metrics to drive cost reduction, supplier compliance, and innovation, to ensure Tesla’s goals of sustainability and market leadership"
+  },
+  {
+    "objectID": "projects.html#category-strategy-project-of-tesla-electronic-batteries",
+    "href": "projects.html#category-strategy-project-of-tesla-electronic-batteries",
+    "title": "Projects",
+    "section": "",
+    "text": "• Conducted market and industry analysis, identifying key trends, competitive benchmarks, and strategic options to optimize Tesla’s battery procurement strategy, aligning it with business goals\n• Formulated a sustainable procurement strategy, collaborating with ethical suppliers and integrating recycling and circular economy practices to reduce costs and enhance resource use in battery production\n• Developed a roadmap and risk management plan, setting performance metrics to drive cost reduction, supplier compliance, and innovation, to ensure Tesla’s goals of sustainability and market leadership"
+  },
+  {
+    "objectID": "projects.html#business-proposal-for-ruvroom-ride-sharing-app",
+    "href": "projects.html#business-proposal-for-ruvroom-ride-sharing-app",
+    "title": "Projects",
+    "section": "Business Proposal for RUVroom (Ride-Sharing App)",
+    "text": "Business Proposal for RUVroom (Ride-Sharing App)\n• Worked in a team of three and successfully developed a comprehensive business proposal for a new ride-sharing platform, RUVroom\n• Outlined strategic and financial objectives, including growth targets and a focus on national and global market expansion, aimed at maximizing both customer and shareholder value\n• Utilized the SIPOC model (Suppliers, Inputs, Process, Outputs, Customers) to break down and streamline service delivery, improving operational efficiency and customer experience"
   },
   {
     "objectID": "about.html",
